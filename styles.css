@@ -1,0 +1,42 @@
+#pokemon {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100vh;
+}
+.poke {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:25%;
+	padding: 0 40px;
+	box-sizing: border-box;
+	font-family: "Permanent Marker", sans-serif;
+	font-size: 28px;
+	/* opacity: 0.5; */
+
+	transition: opacity 0.5s;
+}
+.poke img {
+	width: 100%;
+}
+.poke p {
+	transition: transform 0.25s;
+}
+
+.charmander {
+	background: darkorange;
+}
+.squirtle{
+	background: lightblue;
+}
+.bulbasaur {
+	background: seagreen;
+	font-size: 22px;
+}
+.pikachu {
+	background: yellow;
+}
